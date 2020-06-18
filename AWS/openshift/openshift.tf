@@ -4,7 +4,7 @@ provider "aws" {
  }
 
 resource "aws_instance" "vm" {
-  ami = "ami-0019f18ee3d4157d3"
+  ami = "ami-0019f18ee3d4157d3" #Centos7
   instance_type = "t3a.medium"
   key_name = "a"
   subnet_id = "subnet-02620a52f168d875d"
